@@ -1,0 +1,10 @@
+Quick Description : Singleton is a creational design pattern that lets you ensure that a class has only one instance, while providing a global access point to this instance.
+
+Singleton Pattern Insight : A Singleton pattern is a pattern which create a one instance and use at multiple action.
+
+Main Class : SingletonPattern
+private Static Instance Param : $instance
+
+Method : getInstance() which will check the $instance params is null or not. If the $instance params value is null it will store SingletonPattern class instance to the $instance params.
+Either return the $instance
+

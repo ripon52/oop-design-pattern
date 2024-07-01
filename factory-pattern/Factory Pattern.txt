@@ -1,0 +1,15 @@
+Factory method is a creational design pattern which solves the problem of creating product objects without specifying their concrete classes.
+
+
+Factory Pattern Insight : A Factory design is a pattern which contain a Main class including a Method And method will decide which class is going to perform rest of action.
+
+
+Main Factory Class : This is the class that contains a method where we pass the type of object we want to create.
+Concrete Classes   : These are the subclasses that actually implement the desired functionality.
+Factory Method     : The method in the factory class receives a value (usually a string) and uses a series of conditional checks (if-else or switch statements) to determine which concrete class to instantiate and return.
+
+Main Class : ShapeFactory.php
+Method     : getShape("actionString") it will receive a value
+Sub Class  : inside the getShape method it will decide which subclass is going to take all the responsibilities to take the action.
+
+
