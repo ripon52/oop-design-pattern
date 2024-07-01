@@ -1,5 +1,5 @@
 <?php
-
+include_once 'SpeakInterface.php';
 class AnimalFactory{
 
     public function getAnimal($type){
@@ -12,13 +12,13 @@ class AnimalFactory{
     }
 }
 
-class Cat{
+class Cat implements SpeakInterface {
     public function speak(){
         echo "Meow";
     }
 }
 
-class Dog{
+class Dog implements SpeakInterface {
     public function speak(){
         echo "Woof";
     }
